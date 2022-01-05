@@ -1,0 +1,37 @@
+#grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  /* border: 1px solid black; */
+  flex: 1;
+  aspect-ratio: 1/1;
+  background-color: #1e1b29;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+
+  background-color: #0c0b0f;
+}
+
+html {
+  color-scheme: dark;
+  user-select: none;
+}
+
+#reset {
+  padding: 16px 32px;
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: Roboto, sans-serif;
+}
